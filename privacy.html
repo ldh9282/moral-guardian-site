@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Moral Guardian</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#08080f;color:#c8c8dc;font-family:'Noto Sans KR',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.8;}
+a{color:#c9a84c;}
+.wrap{max-width:720px;margin:0 auto;padding:60px 24px 80px;}
+h1{font-size:1.6rem;font-weight:900;color:#e8e8f0;margin-bottom:6px;}
+.sub{font-size:.85rem;color:#6a6a88;margin-bottom:40px;}
+h2{font-size:1.1rem;font-weight:700;color:#c9a84c;margin:32px 0 10px;padding-top:16px;border-top:1px solid #1e1e35;}
+h2:first-of-type{border-top:none;padding-top:0;}
+p,ul{font-size:.92rem;color:#a0a0bc;margin-bottom:14px;}
+ul{padding-left:20px;}
+li{margin-bottom:6px;}
+strong{color:#e8e8f0;}
+.back{display:inline-block;margin-bottom:24px;font-size:.85rem;color:#c9a84c;}
+footer{border-top:1px solid #1e1e35;padding-top:20px;margin-top:48px;font-size:.8rem;color:#4a4a68;text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a href="/" class="back">← Moral Guardian</a>
+
+<h1>Privacy Policy</h1>
+<p class="sub">Last updated: April 2026</p>
+
+<h2>1. Overview</h2>
+<p>Moral Guardian ("the Extension") is a Chrome browser extension that analyzes text for moral, ethical, and legal considerations. This Privacy Policy describes how we handle user data.</p>
+
+<h2>2. Data We Process</h2>
+<p>The Extension processes the following data <strong>locally on your device</strong>:</p>
+<ul>
+  <li><strong>Text you type</strong> — analyzed in real-time for moral scoring when the feature is enabled</li>
+  <li><strong>Text you select</strong> — analyzed on-demand when you drag-select text on a webpage</li>
+  <li><strong>Analysis history</strong> — up to 200 recent analyses stored locally in Chrome storage</li>
+  <li><strong>Settings & preferences</strong> — language, theme, trigger mode, font size, and other UI preferences</li>
+  <li><strong>API key</strong> — your Anthropic API key, stored locally and never transmitted to our servers</li>
+</ul>
+
+<h2>3. Data We Do NOT Collect</h2>
+<p>We do <strong>not</strong> collect, store, or transmit any personal data to our servers. Specifically:</p>
+<ul>
+  <li>We do not have a backend server that receives your data</li>
+  <li>We do not track your browsing history</li>
+  <li>We do not collect analytics or telemetry</li>
+  <li>We do not use cookies or tracking pixels</li>
+  <li>We do not sell or share any data with third parties</li>
+  <li>We do not store your API key on any server</li>
+</ul>
+
+<h2>4. Third-Party Services</h2>
+<p>The Extension communicates with the following third-party services using <strong>your own API key</strong>:</p>
+<ul>
+  <li><strong>Anthropic API</strong> (api.anthropic.com) — to perform AI-powered moral analysis, fact-checking, and text improvement. Your text is sent directly from your browser to Anthropic's servers using your personal API key. Please review <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a>.</li>
+  <li><strong>Korea Supreme Court</strong> (portal.scourt.go.kr, glaw.scourt.go.kr) — to search for relevant court cases when legal violations are detected. Only legal terms are sent, not your personal text.</li>
+</ul>
+
+<h2>5. Data Storage</h2>
+<p>All data is stored locally using Chrome's <code>chrome.storage.local</code> API. This data stays on your device and syncs only if you have Chrome Sync enabled (controlled by your Chrome settings, not by us).</p>
+<p>You can delete all stored data at any time through the Extension's settings panel:</p>
+<ul>
+  <li>Analysis history — delete individual items or clear all</li>
+  <li>Cost tracking — reset from the dashboard</li>
+  <li>All data — uninstalling the Extension removes all stored data</li>
+</ul>
+
+<h2>6. Permissions</h2>
+<p>The Extension requests the following Chrome permissions:</p>
+<ul>
+  <li><strong>storage</strong> — to save your settings and analysis history locally</li>
+  <li><strong>activeTab</strong> — to detect text input on the current page</li>
+  <li><strong>tabs</strong> — to identify which website you're on for platform-specific analysis</li>
+  <li><strong>scripting</strong> — to inject the analysis widget into web pages</li>
+  <li><strong>alarms</strong> — to keep the background service worker active during analysis</li>
+  <li><strong>host_permissions (api.anthropic.com)</strong> — to call the Anthropic API for AI analysis</li>
+</ul>
+
+<h2>7. Children's Privacy</h2>
+<p>The Extension is not directed to children under the age of 13. We do not knowingly collect data from children.</p>
+
+<h2>8. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. The "Last updated" date at the top reflects the most recent revision. Continued use of the Extension after changes constitutes acceptance of the updated policy.</p>
+
+<h2>9. Contact</h2>
+<p>If you have questions about this Privacy Policy, contact us at:<br>
+<a href="mailto:contact@moralguardian.net">contact@moralguardian.net</a></p>
+
+<footer>
+  © 2025 Moral Guardian. All rights reserved.<br>
+  <a href="/">moralguardian.net</a>
+</footer>
+
+</div>
+</body>
+</html>
